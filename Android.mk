@@ -20,9 +20,8 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_OVERRIDES_PACKAGES := webview
 
-LOCAL_MODULE := bromite-webview
+LOCAL_MODULE := webview
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MULTILIB := both
 LOCAL_CERTIFICATE := PRESIGNED
